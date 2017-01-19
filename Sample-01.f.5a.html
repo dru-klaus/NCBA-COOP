@@ -1,0 +1,1298 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <title>NCBA v4.2.5a.f</title>
+  <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,700&subset=latin,cyrillic,greek" rel="stylesheet" type="text/css">
+  <style type="text/css">
+
+    /* -------- Resets: see reset.css for details -------- */
+    .ReadMsgBody { width: 100%; background-color: #ffffff; }
+    .ExternalClass { width: 100%; background-color: #ffffff; }
+    .ExternalClass, .ExternalClass p, .ExternalClass span,  .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; }
+    #outlook a { padding: 0; }
+    html { width: 100%; }
+    body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; }
+    html, body { background-color: #ffffff; margin: 0; padding: 0; }
+    table { border-spacing: 0; }
+    table td { border-collapse: collapse; }
+    br, strong br, b br, em br, i br { line-height: 100%; }
+    h1, h2, h3, h4, h5, h6 { line-height: 100% !important; -webkit-font-smoothing: antialiased; }
+    img { height: auto !important; line-height: 100%; outline: none; text-decoration: none; display: block !important; }
+    span a { text-decoration: none !important; }
+    a { text-decoration: none !important; }
+    table p { margin: 0; }
+    .yshortcuts, .yshortcuts a, .yshortcuts a:link, .yshortcuts a:visited,  .yshortcuts a:hover, .yshortcuts a span { text-decoration: none !important; border-bottom: none !important; }
+    table { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    img { -ms-interpolation-mode: bicubic; }
+    ul { list-style: none; margin: 0; padding: 0; }
+    /* What it does: Hover styles for buttons */
+    .button-td, .button-a { transition: all 100ms ease-in; }
+    .button-td:hover, .button-a:hover { background: #555555 !important; border-color: #555555 !important; }
+
+    /* -------- mailChimp class -------- */
+    .default-edit-image { height: 20px; }
+    .tpl-repeatblock { padding: 0px !important; border: 1px dotted rgba(0,0,0,0.2); }
+    img { height: auto !important; }
+    td[class="image-270px"] img { width: 270px; height: auto !important; max-width: 270px !important; }
+    td[class="image-170px"] img { width: 170px; height: auto !important; max-width: 170px !important; }
+    td[class="image-185px"] img { width: 185px; height: auto !important; max-width: 185px !important; }
+    td[class="image-124px"] img { width: 124px; height: auto !important; max-width: 124px !important; }
+    
+    @media only screen and (max-width: 640px) {
+      body { width: 100% !important; }
+      table[class="container"] { width: 100%!important; padding-left: 20px!important; padding-right: 20px!important; }
+      td[class="container"] { width: 100%!important; padding-left: 20px!important; padding-right: 20px!important; }
+      td[class="image-270px"] img { width: 100% !important; height: auto !important; max-width: 100% !important; }
+      td[class="image-170px"] img { width: 100% !important; height: auto !important; max-width: 100% !important; }
+      td[class="image-185px"] img { width: 185px !important; height: auto !important; max-width: 185px !important; }
+      td[class="image-124px"] img { width: 100% !important; height: auto !important; max-width: 100% !important; }
+      td[class="image-100-percent"] img { width: 100% !important; height: auto !important; max-width: 100% !important; }
+      td[class="small-image-100-percent"] img { width: 100% !important; height: auto !important; }
+      table[class="full-width"] { width: 100% !important; }
+      table[class="full-width-text"] { width: 100% !important; background-color: #b91925; padding-left: 20px !important; padding-right: 20px !important; }
+      table[class="full-width-text2"] { width: 100% !important; background-color: #f3f3f3; padding-left: 20px !important; padding-right: 20px !important; }
+      table[class="col-2-3img"] { width: 50% !important; margin-right: 20px !important; }
+      table[class="col-2-3img-last"] { width: 50% !important; }
+      table[class="col-2"] { width: 47% !important; margin-right: 20px !important; }
+      table[class="col-2-last"] { width: 47% !important; }
+      table[class="col-3"] { width: 29% !important; margin-right: 20px !important; }
+      table[class="col-3-last"] { width: 29% !important; }
+      table[class="row-2"] { width: 50% !important; }
+      td[class="text-center"] { text-align: center !important; }
+  
+      /* -------- start clear and remove -------- */
+      table[class="remove"] { display: none !important; }
+      td[class="remove"] { display: none !important; }
+      /* -------- end clear and remove -------- */
+  
+      table[class="fix-box"] { padding-left: 20px !important; padding-right: 20px !important; }
+      td[class="fix-box"] { padding-left: 20px !important; padding-right: 20px !important; }
+      td[class="font-resize"] { font-size: 18px !important; line-height: 22px !important; }
+      table[class="space-scale"] { width: 100% !important; float: none !important; }
+      table[class="clear-align-640"] { float: none !important; }
+
+      table[width="600"] { width: 100% !important; }
+      
+      td[class="left-cap"] { padding-left: 10px !important; }
+      td[class="right-cap"] { padding-right: 10px !important; }
+    }
+    
+    @media only screen and (max-width: 470px) {
+      body { font-size: 10px !important; }
+      table[class="container"] { width: 100% !important; padding-left: 0 !important; padding-right: 0 !important; }
+      td[class="container"] { width: 100% !important; padding-left: 0 !important; padding-right: 0 !important; }
+      td[class="full-width"] img { width: 100% !important; height: auto !important; max-width: 100% !important; min-width: 124px !important; }
+      td[class="image-270px"] img { width: 100% !important; height: auto !important; max-width: 100% !important; min-width: 124px !important; }
+      td[class="image-170px"] img { width: 100% !important; height: auto !important; max-width: 100% !important; min-width: 124px !important; }
+      td[class="image-185px"] img { width: 185px !important; height: auto !important; max-width: 185px !important; min-width: 124px !important; }
+      td[class="image-124px"] img { width: 100% !important; height: auto !important; max-width: 100% !important; min-width: 124px !important; }
+      td[class="image-100-percent"] img { width: 100% !important; height: auto !important; max-width: 100% !important; min-width: 124px !important; }
+      td[class="small-image-100-percent"] img { width: 100% !important; height: auto !important; max-width: 100% !important; min-width: 124px !important; }
+      table[class="full-width"] { width: 100% !important; padding-left: 0 !important; padding-right: 0 !important; }
+      table[class="full-width-text"] { width: 100% !important; background-color: #b91925; padding-left: 20px !important; padding-right: 20px !important; }
+      table[class="full-width-text2"] { width: 100% !important; background-color: #f3f3f3; padding-left: 20px !important; padding-right: 20px !important; }
+      table[class="col-2"] { width: 100% !important; margin-right: 0px !important; }
+      table[class="col-2-last"] { width: 100% !important; }
+      table[class="col-3"] { width: 100% !important; margin-right: 0px !important; }
+      table[class="col-3-last"] { width: 100% !important; }
+      table[class="row-2"] { width: 100% !important; }
+      table[id="col-underline"] { float: none !important; width: 100% !important; border-bottom: 1px solid #eee; }
+      td[id="col-underline"] { float: none !important; width: 100% !important; border-bottom: 1px solid #eee; }
+      td[class="col-underline"] { float: none !important; width: 100% !important; border-bottom: 1px solid #eee; }
+
+      /* -------- start text center -------- */
+      td[class="text-center"] { text-align: center !important; }
+      div[class="text-center"] { text-align: center !important; }
+      /* -------- end text center -------- */
+
+      /* -------- start  clear and remove -------- */
+      table[id="clear-padding"] { padding: 0 !important; }
+      td[id="clear-padding"] { padding: 0 !important; }
+      td[class="clear-padding"] { padding: 0 !important; }
+      table[class="remove-479"] { display: none !important; }
+      td[class="remove-479"] { display: none !important; }
+      table[class="clear-align"] { float: none !important; }
+      /* -------- end  clear and remove -------- */
+
+      table[class="width-small"] { width: 100% !important; }
+      table[class="fix-box"] { padding-left: 0px !important; padding-right: 0px !important; }
+      td[class="fix-box"] { padding-left: 0px !important; padding-right: 0px !important; }
+      td[class="font-resize"] { font-size: 14px !important; }
+      td[class="increase-Height"] { height: 10px !important; }
+      td[class="increase-Height-20"] { height: 20px !important; }
+
+      td[class="inner-text"]  { padding-left: 20px !important; padding-right: 20px !important; }
+    }
+    
+    @media only screen and (max-width: 360px) {
+      table[class="width-small"] { width: 125px !important; }
+      img[class="image-100-percent"] { width: 100% !important; height: auto !important; max-width: 100% !important; min-width: 124px !important; }
+    }
+    
+    @media only screen and (max-width: 640px) {
+      .image-100-percent { width: 100%!important; height: auto !important; max-width: 100% !important; min-width: 124px !important; }
+    }
+
+    @media screen and (max-width: 640px) {
+      .email-container { width: 100% !important; }
+      /* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
+      .fluid, .fluid-centered { max-width: 100% !important; height: auto !important; margin-left: auto !important; margin-right: auto !important; }
+      /* And center justify these ones. */
+      .fluid-centered { margin-left: auto !important; margin-right: auto !important; }
+      /* What it does: Forces table cells into full-width rows. */
+      .stack-column, .stack-column-center { display: block !important; width: 100% !important; max-width: 100% !important; direction: ltr !important; }
+      /* And center justify these ones. */
+      .stack-column-center { text-align: center !important; }
+      /* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
+      .center-on-narrow { text-align: center !important; display: block !important; margin-left: auto !important; margin-right: auto !important; float: none !important; }
+      table.center-on-narrow { display: inline-block !important; }
+    }
+
+    body { background-color: #efefef; }
+    .default-edit-image { height: 20px; }
+    tr.tpl-repeatblock, tr.tpl-repeatblock > td { display: block !important; }
+    td ul { list-style: initial; margin: 0; padding-left: 20px; }
+    .tpl-repeatblock { padding: 0px !important; border: 1px dotted rgba(0,0,0,0.2); }
+    a img { border: 0 !important; }
+    a:active { color: inherit !important; }
+    .tpl-content { padding: 0 !important; }
+    p { padding: 5px 0 5px 0; }
+
+  </style>
+ 
+  <!--[if gte mso 15]>
+    <style type="text/css">
+      a{text-decoration: none !important;}
+      body { font-size: 0; line-height: 0; }
+      tr { font-size:1px; mso-line-height-alt:0; mso-margin-top-alt:1px; }
+      table { font-size:1px; line-height:0; mso-margin-top-alt:1px; }
+      body,table,td,span,a{font-family: Arial, Helvetica, sans-serif !important;}
+      a img{ border: 0 !important;}
+    </style>
+  <![endif]-->
+  
+  <!--[if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]-->
+
+</head>
+<body style="font-size:12px; width:100%; height:100%;">
+  <table id="mainStructure" width="100%" class="full-width" align="center" border="0" cellspacing="0" cellpadding="0" style="background-color:#efefef; max-width: 800px; margin: 0 auto; outline: none; box-shadow: none;">
+    <!-- START HEIGHT SPACE 10PX-->
+    <tr>
+      <td height="10" style="height: 10px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+    </tr>
+      <tbody>
+  <!--START TOP NAVIGATION LAYOUT-->
+  <tr mc:repeatable>
+    <td mc:hideable valign="top">
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+        
+        <!-- START CONTAINER NAVIGATION -->
+        <tbody>
+          <tr>
+            <td align="center" valign="top"> 
+              
+              <!-- start top navigation container -->
+              <table width="600" align="center" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr>
+                    <td valign="top"> 
+                      
+                      <!-- start top navigaton -->
+                      <table width="600" align="center" border="0" cellspacing="0" cellpadding="0" class="full-width">
+                        <tbody>                          
+                          <tr>
+                            <td class="left-cap" width="50%" align="left" valign="bottom" style="text-wrap:none; line-height: 7pt; padding: 4px 0 0 0">
+                              <table align="left" border="0" cellspacing="0" cellpadding="0" class="container2">
+                                <tbody>
+                                  <tr>
+                                    <td align="center" valign="top" style="max-width: 200px;"> <a href="http://www.ncba.coop/" style="font-size: inherit; border-style: none; text-decoration: none !important;" border="0"><img src="/_MA-Temp/_NCBA-CLUSA-Newsletter-RAW/2016-News-Alerts-r4/images/LOGOcolor.gif" width="200" style="max-width:200px;" alt="Logo" border="0" hspace="0" vspace="0" mc:edit="top logo tb10"></a></td>
+                                  </tr>
+
+                                  <!-- start space -->
+                                  <tr>
+                                    <td valign="top" height="4" style="max-height: 4px;"></td>
+                                  </tr>
+                                  <!-- end space -->
+
+                                </tbody>
+                              </table>
+                            </td>
+                            <td class="right-cap" width="50%" align="right" valign="bottom" style="text-wrap:none; line-height: 7pt; padding: 4px 0 0 0">
+                              <!--start icon social -->
+                              <table border="0" align="right" cellpadding="0" cellspacing="0" class="container2">
+                                <tbody>
+                                  <!-- start text content -->
+                                  <tr>
+                                    <td valign="top" align="right">
+                                      <table border="0" align="right" cellpadding="0" cellspacing="0">
+                                        <tbody>
+                                          <tr>
+                                            <td align="center" valign="middle" style="padding-right: 5px;"> <a href="https://www.facebook.com/NCBACLUSA" style="text-decoration: none;"><img src="/_MA-Temp/_NCBA-CLUSA-Newsletter-RAW/2016-News-Alerts-r4/images/social-media_Facebook-Btn-Sm.png" width="20" alt="icon-facebook" style="max-width:20px;" border="0" hspace="0" vspace="0"></a> </td>
+                                            <td s="" align="center" valign="middle" style="padding-right: 5px;"> <a href="https://twitter.com/NCBACLUSA" style="text-decoration: none;"><img src="/_MA-Temp/_NCBA-CLUSA-Newsletter-RAW/2016-News-Alerts-r4/images/social-media_Twitter-Btn-Sm.png" width="20" alt="icon-twitter" style="max-width:20px;" border="0" hspace="0" vspace="0"></a> </td>
+                                            <td align="center" valign="middle" style="padding-right: 5px;"> <a href="https://www.youtube.com/user/NCBACLUSA" style="text-decoration: none;"><img src="/_MA-Temp/_NCBA-CLUSA-Newsletter-RAW/2016-News-Alerts-r4/images/social-media_YouTube-Btn-Sm.png" width="20" alt="icon-youtube" style="max-width:20px;" border="0" hspace="0" vspace="0"></a> </td>         <td align="center" valign="middle"  style="padding-right: 0px;"> <a href="https://www.instagram.com/ncbaclusa/" style="text-decoration: none;"><img src="/_MA-Temp/_NCBA-CLUSA-Newsletter-RAW/2016-News-Alerts-r4/images/social-media_Instagram-Btn-Sm.png" width="20" alt="icon-instagram" style="max-width:20px;" border="0" hspace="0" vspace="0"></a> </td>
+                                          </tr>
+                                        </tbody>
+                                      </table><br>
+
+                                      <!--start content nav -->
+                                      <table border="0" align="right" cellpadding="0" cellspacing="0" style="clear: right;">
+                                        <!--start call us -->
+                                        <tbody>
+                                          <tr>
+                                            <td valign="middle" align="center"><table align="right" border="0" cellpadding="0" cellspacing="0" class="clear-align">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" height="5"><img src="http://mindactive.com/_mail-2016/images/space.png" width="5" alt="space" style="display:block; max-height:5px; max-width:5px;"></td>
+                                                </tr>
+                                                <tr>
+                                                  <td style="font-size: 13px;  line-height: 18px; color: rgba(0,0,0,1.00);  font-weight:300; text-align: center; font-family:Roboto,Open Sans,Arail,Tahoma, Helvetica, Arial, sans-serif;" mc:edit="unsubscribe tb40"><span style="text-decoration: none; color: rgba(0,0,0,1.00);">December 29. 2016</span></td>
+                                                </tr>
+                                              </tbody>
+                                            </table></td>
+                                          </tr>
+                                          <!--end call us -->
+                                        </tbody>
+                                      </table>
+                                      <!--end content nav -->
+
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              <!--end icon socail --> 
+
+                            </td>
+                          </tr>
+                          
+                          <!-- start space -->
+                          <tr>
+                            <td valign="top" height="5" colspan="2"> </td>
+                          </tr>
+                          <!-- end space -->
+                          
+                        </tbody>
+                      </table>
+                      <!-- end top navigaton --> 
+                      
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <!-- end top navigation container --> 
+              
+            </td>
+          </tr>
+          <!-- END CONTAINER NAVIGATION -->
+          
+        </tbody>
+      </table>
+    </td>
+  </tr>
+  </tbody>
+    <!--START LAYOUT-6/1-->
+    <tr>
+      <td align="center" valign="top" style="background-color:#efefef;"> 
+        <!-- start header container -->
+        <table width="600" align="center" border="0" cellspacing="0" cellpadding="0" class="full-width" style="background-color: #ffffff; width: 600px;">
+          <tbody>
+            <tr>
+              <td valign="top" align="center" class="image-100-percent" width="600" style="width: 600px;"><a href="#" style="font-size: inherit; border-style: none; text-decoration: none !important;" border="0"><img src="images/CBJonline-Logo-v1.2r1.png" width="600" alt="image12_600x190" style="max-width:600px; display:block; " border="0" hspace="0" vspace="0"></a></td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- end header container -->
+      </td>
+    </tr>
+    <!--END LAYOUT-6/1-->
+    <!-- START LAYOUT-4 -->
+    <tr>
+      <td align="center" valign="top" style="background-color:#efefef;"> 
+        <!-- start LAYOUT-4 container width 600px -->
+        <table width="600" align="center" border="0" cellspacing="0" cellpadding="0" class="container" style="padding-left: 20px; padding-right: 20px; background-color: #ffffff; border-bottom: none; width: 600px;">
+          <tbody>
+            <tr>
+              <td valign="top"> 
+                <!-- start LAYOUT-4 container width 560px -->
+                <table width="560" align="center" border="0" cellspacing="0" cellpadding="0" class="full-width" style="width: 560px;">
+                  <tbody>
+                    <!-- start image content -->
+                    <tr>
+                      <td valign="top" width="100%">
+                        <table width="270" border="0" cellspacing="0" cellpadding="0" align="left" class="full-width" style="width: 270px;">
+                          <tbody>
+                            <tr>
+                              <td valign="top">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0" align="left" style="">
+                                  <tbody>
+                                    <tr>
+                                      <td valign="top" align="left" class="image-270px" width="270" style="width: 270px;"><a href="https://ncba.coop/administrator/components/com_civicrm/civicrm/extern/url.php?u=11856&qid=" style="font-size: inherit; border-style: none; text-decoration: none !important;" border="0"><img src="/_MA-Temp/_NCBA-CLUSA-Newsletter-RAW/2016-News-Alerts-r4/images/FPO-Stock_NCBA-Ratio.png" width="20" alt="icon-facebook" width="270" alt="image10_480x260" style="display:block; max-width:270px; " border="0" hspace="0" vspace="0"></a></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <!--start space height -->
+                            <tr>
+                              <td height="20" style="height: 20px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                            </tr>
+                            <!--end space height -->
+                          </tbody>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]></td><td valign="top" ><![endif]-->
+                        <table class="remove" width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="font-size: 0px; line-height: 0; border-collapse: collapse; width: 1px;">
+                          <tbody>
+                            <tr>
+                              <td width="0" height="2" style="border-collapse: collapse; width: 0px; height: 2px; line-height: 2px; font-size: 2px;">
+                                <p style="padding: 0 0 0 19px;">&nbsp;</p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]></td><td valign="top" ><![endif]-->
+                        <table width="270" border="0" cellspacing="0" cellpadding="0" align="right" class="full-width" style="width: 270px;">
+                          <!-- start text content -->
+                          <tbody>
+                            <tr>
+                              <td valign="top">
+                                <table border="0" cellspacing="0" cellpadding="0" align="left" width="auto" style="">
+                                  <tbody>
+                                    <tr dup="0">
+                                      <td valign="top">
+                                        <table border="0" cellspacing="0" cellpadding="0" align="left" width="auto" style="">
+                                          <tbody>
+                                            <tr>
+                                              <td class="inner-text" style="font-size: 18px; font-family: Roboto, 'Open Sans', Arial, Tahoma, Helvetica, sans-serif; color: rgb(85, 85, 85); font-weight: normal; text-align: left; word-break: break-word; line-height: 26px;"><span style="color: rgb(85, 85, 85); font-weight: normal; font-size: inherit; line-height: 26px;"><a href="https://ncba.coop/administrator/components/com_civicrm/civicrm/extern/url.php?u=11856&qid=" style="color: rgb(85, 85, 85); font-weight: normal; font-size: inherit; border-style: none; text-decoration: none !important; line-height: 26px;" border="0"> NCBA CLUSA supports Feed the Future's mission to #EndHunger by bringing communities together </a></span></td>
+                                            </tr>
+                                            <!--start space height -->
+                                            <tr>
+                                              <td height="5" style="height: 5px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                                            </tr>
+                                            <!--end space height -->
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr dup="0">
+                                      <td valign="top">
+                                        <table border="0" cellspacing="0" cellpadding="0" align="left" width="auto" style="">
+                                          <tbody>
+                                            <tr>
+                                              <td class="inner-text" style="font-size: 14px; font-family: Roboto, 'Open Sans', Arial, Tahoma, Helvetica, sans-serif; color: rgb(163, 162, 162); font-weight: 300; text-align: left; word-break: break-word; line-height: 21px;">
+                                                <p><span face="Helvetica, Arial, sans-serif" size="2">This week, organizations around the world are highlighting how they are working to #EndHunger as part of <a href="https://ncba.coop/administrator/components/com_civicrm/civicrm/extern/url.php?u=11857&amp;qid=">Feed the Future</a> week. For one village in Senegal, where NCBA CLUSA works with Feed the Future, bringing the community together to end hunger meant more than just nutrition.</span></p>
+                                                <p><span face="Helvetica, Arial, sans-serif" size="2">Bow Village sits far off the main road in Senegal, a stone's throw from the Mauritania border. Here, 90 goats roam outside the village, grazing and feeding, shepherded by one of the villagers who has been paid by the community to take care of everyone&rsquo;s goats during the day.</span></p>
+                                                <p><span face="Helvetica, Arial, sans-serif" size="2">One of those goats belongs to Coumba Sarr, who recently received her goat as part of a pass-on-the-gift program initiated by her community leadership group. The first round of goats came from the USAID-funded <a href="https://ncba.coop/administrator/components/com_civicrm/civicrm/extern/url.php?u=11858&amp;qid=">Yaajeende Food Security and Nutrition Program</a>, a Feed the Future project implemented by NCBA CLUSA, four years ago. The goats were given in partnership with Heifer International.</span></p>
+                                              </td>
+                                            </tr>
+                                            <!--start space height -->
+                                            <tr>
+                                              <td height="10" style="height: 10px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                                            </tr>
+                                            <!--end space height -->
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td valign="top" width="auto" align="center"> 
+                                        <!-- start button -->
+                                        <table border="0" cellpadding="0" cellspacing="0" dup="0" width="auto" class="center-on-narrow" style="float: left">
+                                          <tbody>
+                                            <tr>
+                                              <!--end space width -->
+                                              <td width="auto" align="center" valign="middle" height="32" style="background-color: rgb(63, 140, 205); border-radius: 24px; background-clip: padding-box; font-size: 13px; font-family: Roboto, 'Open Sans', Arial, Tahoma, Helvetica, sans-serif; text-align: center; color: rgb(255, 255, 255); font-weight: bold; padding-left: 18px; padding-right: 18px; word-break: break-word; line-height: 21px;"><span style="color: rgb(255, 255, 255); font-weight: bold; font-size: inherit; line-height: 21px;"><a href="https://ncba.coop/administrator/components/com_civicrm/civicrm/extern/url.php?u=11856&qid=" style="color: rgb(255, 255, 255); font-weight: bold; font-size: inherit; border-style: none; text-decoration: none !important; line-height: 21px;" border="0"> <!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->Keep&nbsp;reading<!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--> </a></span></td>
+                                              <!-- start space width -->
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <!-- end button --></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <!-- end text content -->
+                            <!--start space height -->
+                            <tr>
+                              <td height="20" style="height: 20px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                            </tr>
+                            <!--end space height -->
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <!-- end image content -->
+                  </tbody>
+                </table>
+                <!-- end LAYOUT-4 container width 560px --></td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- end LAYOUT-4 container width 600px --></td>
+    </tr>
+    <!-- END LAYOUT-4  -->
+    <!-- START HEIGHT SPACE 20PX-->
+    <tr>
+      <td align="center" valign="top" style="background-color:#efefef;">
+        <table width="600" class="full-width" align="center" border="0" cellspacing="0" cellpadding="0" style="background-color: #efefef; width: 600px;">
+          <tbody>
+            <tr>
+              <td valign="top" align="center" class="image-100-percent" width="600" style="width: 600px;"><img src="images/space.png" width="600" alt="space" style="display:block; max-height:20px; max-width:600px; " border="0" hspace="0" vspace="0"></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <!-- END HEIGHT SPACE 20PX-->
+    <!--START LAYOUT-6/1-->
+    <tr>
+      <td align="center" valign="top" style="background-color:#efefef;"> 
+        <!-- start header container -->
+        <table width="600" align="center" border="0" cellspacing="0" cellpadding="0" class="full-width" style="background-color: #ffffff; width: 600px;">
+          <tbody>
+            <tr>
+              <td valign="top" align="center" class="image-100-percent" width="600" style="width: 600px;"><a href="https://ncba.coop/administrator/components/com_civicrm/civicrm/extern/url.php?u=11859&qid=" style="font-size: inherit; border-style: none; text-decoration: none !important;" border="0"><img src="https://ncba.coop/media/civicrm/persist/contribute/images/npcc-banner-750%288%29.png" width="600" alt="image12_600x190" style="max-width:600px; display:block; " border="0" hspace="0" vspace="0"></a></td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- end header container --></td>
+    </tr>
+    <!--END LAYOUT-6/1-->
+    <!-- START HEIGHT SPACE 20PX-->
+    <tr>
+      <td align="center" valign="top" style="background-color:#efefef;">
+        <table width="600" class="full-width" align="center" border="0" cellspacing="0" cellpadding="0" style="background-color: #efefef; width: 600px;">
+          <tbody>
+            <tr>
+              <td valign="top" align="center" class="image-100-percent" width="600" style="width: 600px;"><img src="images/space.png" width="600" alt="space" style="display:block; max-height:20px; max-width:600px; " border="0" hspace="0" vspace="0"></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <!-- END HEIGHT SPACE 20PX-->
+    <!--START LAYOUT-6/1-->
+    <tr>
+      <td align="center" valign="top" style="background-color:#efefef;"> 
+        <!-- start header container -->
+        <table width="600" align="center" border="0" cellspacing="0" cellpadding="0" class="full-width" style="background-color: #ffffff; width: 600px;">
+          <tbody>
+            <tr>
+              <td valign="top" align="center" class="image-100-percent" width="600" style="width: 600px;"><a href="https://ncba.coop/administrator/components/com_civicrm/civicrm/extern/url.php?u=11860&qid=" style="font-size: inherit; border-style: none; text-decoration: none !important;" border="0"><img src="https://ncba.coop/media/civicrm/persist/contribute/images/CPC-banner-750%288%29.png" width="600" alt="image12_600x190" style="max-width:600px; display:block; " border="0" hspace="0" vspace="0"></a></td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- end header container -->
+      </td>
+    </tr>
+    <!--END LAYOUT-6/1-->
+    <!-- START HEIGHT SPACE 20PX-->
+    <tr>
+      <td align="center" valign="top" style="background-color:#efefef;">
+        <table width="600" class="full-width" align="center" border="0" cellspacing="0" cellpadding="0" style="background-color: #efefef; width: 600px;">
+          <tbody>
+            <tr>
+              <td valign="top" align="center" class="image-100-percent" width="600" style="width: 600px;"><img src="images/space.png" width="600" alt="space" style="display:block; max-height:20px; max-width:600px; " border="0" hspace="0" vspace="0"></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <!-- END HEIGHT SPACE 20PX-->
+    <!-- START LAYOUT-4 -->
+    <tr>
+      <td align="center" valign="top" style="background-color:#efefef;"> 
+        <!-- start LAYOUT-4 container width 600px -->
+        <table width="600" align="center" border="0" cellspacing="0" cellpadding="0" class="container" style="padding-left: 20px; padding-right: 20px; background-color: #ffffff; border-bottom: 1px solid rgb(199, 199, 199); width: 600px;">
+          <tbody>
+            <tr>
+              <td valign="top"> 
+                <!-- start LAYOUT-4 container width 560px -->
+                <table width="560" align="center" border="0" cellspacing="0" cellpadding="0" class="full-width" style="width: 560px;">
+                  <!--start space height -->
+                  <tbody>
+                    <tr>
+                      <td height="20" style="height: 20px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                    </tr>
+                    <!--end space height -->
+                    <!-- start image content -->
+                    <tr>
+                      <td valign="top" width="100%">
+                        <table width="270" border="0" cellspacing="0" cellpadding="0" align="left" class="full-width" style="width: 270px;">
+                          <tbody>
+                            <tr>
+                              <td valign="top">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0" align="left" style="">
+                                  <tbody>
+                                    <tr>
+                                      <td valign="top" align="left" class="image-270px" width="270" style="width: 270px;"><a href="https://ncba.coop/administrator/components/com_civicrm/civicrm/extern/url.php?u=11861&qid=" style="font-size: inherit; border-style: none; text-decoration: none !important;" border="0"><img src="/_MA-Temp/_NCBA-CLUSA-Newsletter-RAW/2016-News-Alerts-r4/images/FPO-Stock_NCBA-Ratio.png" width="20" alt="icon-facebook" width="270" alt="image10_480x260" style="display:block; max-width:270px; " border="0" hspace="0" vspace="0"></a></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <!--start space height -->
+                            <tr>
+                              <td height="20" style="height: 20px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                            </tr>
+                            <!--end space height -->
+                          </tbody>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]></td><td valign="top" ><![endif]-->
+                        <table class="remove" width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="font-size: 0px; line-height: 0; border-collapse: collapse; width: 1px;">
+                          <tbody>
+                            <tr>
+                              <td width="0" height="2" style="border-collapse: collapse; width: 0px; height: 2px; line-height: 2px; font-size: 2px;">
+                                <p style="padding: 0 0 0 19px;">&nbsp;</p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]></td><td valign="top" ><![endif]-->
+                        <table width="270" border="0" cellspacing="0" cellpadding="0" align="right" class="full-width" style="width: 270px;">
+                          <!-- start text content -->
+                          <tbody>
+                            <tr>
+                              <td valign="top">
+                                <table border="0" cellspacing="0" cellpadding="0" align="left" width="auto" style="">
+                                  <tbody>
+                                    <tr dup="0">
+                                      <td valign="top">
+                                        <table border="0" cellspacing="0" cellpadding="0" align="left" width="auto" style="">
+                                          <tbody>
+                                            <tr>
+                                              <td class="inner-text" style="font-size: 18px; font-family: Roboto, 'Open Sans', Arial, Tahoma, Helvetica, sans-serif; color: rgb(85, 85, 85); font-weight: bold; text-align: left; word-break: break-word; line-height: 26px;"><span style="color: rgb(85, 85, 85); font-weight: bold; font-size: inherit; line-height: 26px;"><a href="https://ncba.coop/administrator/components/com_civicrm/civicrm/extern/url.php?u=11861&qid=" style="color: rgb(85, 85, 85); font-weight: bold; font-size: inherit; border-style: none; text-decoration: none !important; line-height: 26px;" border="0">Leading-edge organizations bring business expertise to the Magic City for NPCC 2016</a></span></td>
+                                            </tr>
+                                            <!--start space height -->
+                                            <tr>
+                                              <td height="5" style="height: 5px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                                            </tr>
+                                            <!--end space height -->
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr dup="0">
+                                      <td valign="top">
+                                        <table border="0" cellspacing="0" cellpadding="0" align="left" width="auto" style="">
+                                          <tbody>
+                                            <tr>
+                                              <td class="inner-text" style="font-size: 14px; font-family: Roboto, 'Open Sans', Arial, Tahoma, Helvetica, sans-serif; color: rgb(163, 162, 162); font-weight: 300; text-align: left; word-break: break-word; line-height: 21px;">NCBA CLUSA's <a href="https://ncba.coop/administrator/components/com_civicrm/civicrm/extern/url.php?u=11859&amp;qid=">2016 National Purchasing Co-op Conference</a> in Miami, Florida, next week will feature a unique mix of sessions, networking and activities designed to help attendees &ldquo;Elevate Connections&rdquo; within the diverse shared services sector. Attendees will learn how to facilitate growth at their co-op and engage their members by utilizing technology and taking advantage of their unique identity as cooperatives. To help attendees implement these new ideas, NCBA CLUSA will also host seven sponsoring organizations dedicated to supporting cooperatives with their suite of services.</td>
+                                            </tr>
+                                            <!--start space height -->
+                                            <tr>
+                                              <td height="10" style="height: 10px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                                            </tr>
+                                            <!--end space height -->
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td valign="top" width="auto" align="center"> 
+                                        <!-- start button -->
+                                        <table border="0" align="center" cellpadding="0" cellspacing="0" dup="0" width="auto" class="center-on-narrow" style=" float:left;">
+                                          <tbody>
+                                            <tr>
+                                              <td width="auto" align="center" valign="middle" height="32" style="background-color: rgb(63, 140, 205); border-radius: 24px; background-clip: padding-box; font-size: 13px; font-family: Roboto, 'Open Sans', Arial, Tahoma, Helvetica, sans-serif; text-align: center; color: rgb(255, 255, 255); font-weight: bold; padding-left: 18px; padding-right: 18px; word-break: break-word; line-height: 21px;" class="button-a"><span style="color: rgb(255, 255, 255); font-weight: bold; font-size: inherit; line-height: 21px;"><a href="https://ncba.coop/administrator/components/com_civicrm/civicrm/extern/url.php?u=11861&qid=" style="color: rgb(255, 255, 255); font-weight: bold; font-size: inherit; border-style: none; text-decoration: none !important; line-height: 21px;" border="0"> <!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->Keep&nbsp;reading<!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--> </a></span></td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <!-- end button --></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <!-- end text content -->
+                            <!--start space height -->
+                            <tr>
+                              <td height="20" style="height: 20px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                            </tr>
+                            <!--end space height -->
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <!-- end image content -->
+                  </tbody>
+                </table>
+                <!-- end LAYOUT-4 container width 560px --></td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- end LAYOUT-4 container width 600px --></td>
+    </tr>
+    <!-- END LAYOUT-4  -->
+    <!-- START LAYOUT-5 -->
+    <tr>
+      <td align="center" valign="top" style="background-color:#efefef;"> 
+        <!-- start container width 600px -->
+        <table width="600" align="center" border="0" cellspacing="0" cellpadding="0" class="container" style="padding-left: 20px; padding-right: 20px; background-color: #ffffff; border-bottom: 1px solid rgb(199, 199, 199); width: 600px;">
+          <tbody>
+            <tr>
+              <td valign="top"> 
+                <!-- start container width 560px -->
+                <table width="560" align="center" border="0" cellspacing="0" cellpadding="0" class="full-width" style="width: 560px;" dir="rtl">
+                  <!--start space height -->
+                  <tbody>
+                    <tr>
+                      <td height="20" style="height: 20px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                    </tr>
+                    <!--end space height -->
+<!-- start image content -->
+                    <tr>
+                      <td valign="top" width="100%">
+                        <table width="270" border="0" cellspacing="0" cellpadding="0" align="right" class="full-width" style="width: 270px;" dir="ltr">
+                          <tbody>
+                            <tr>
+                              <td valign="top">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0" align="left" style="">
+                                  <tbody>
+                                    <tr>
+                                      <td valign="top" align="left" class="image-270px" width="270" style="width: 270px;"><a href="https://ncba.coop/administrator/components/com_civicrm/civicrm/extern/url.php?u=11862&qid=" style="font-size: inherit; border-style: none; text-decoration: none !important;" border="0"><img src="/_MA-Temp/_NCBA-CLUSA-Newsletter-RAW/2016-News-Alerts-r4/images/FPO-Stock_NCBA-Ratio.png" width="20" alt="icon-facebook" width="270" alt="image11_480x260" style="display:block; max-width:270px; " border="0" hspace="0" vspace="0"></a></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <!--start space height -->
+                            <tr>
+                              <td height="20" style="height: 20px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                            </tr>
+                            <!--end space height -->
+                          </tbody>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]></td><td valign="top" ><![endif]-->
+                        <table class="remove" width="1" border="0" cellpadding="0" cellspacing="0" align="right" style="font-size: 0px; line-height: 0; border-collapse: collapse; width: 1px;" dir="ltr">
+                          <tbody>
+                            <tr>
+                              <td width="0" height="2" style="border-collapse: collapse; width: 0px; height: 2px; line-height: 2px; font-size: 2px;">
+                                <p style="padding: 0 0 0 19px;">&nbsp;</p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]></td><td valign="top" ><![endif]-->
+                        <table width="270" border="0" cellspacing="0" cellpadding="0" align="left" class="full-width" style="width: 270px;" dir="ltr">
+                          <!-- start text content -->
+                          <tbody>
+                            <tr>
+                              <td valign="top">
+                                <table border="0" cellspacing="0" cellpadding="0" align="left" width="auto" style="">
+                                  <tbody>
+                                    <tr dup="0">
+                                      <td valign="top">
+                                        <table border="0" cellspacing="0" cellpadding="0" align="left" width="auto" style="">
+                                          <tbody>
+                                            <tr>
+                                              <td class="inner-text" style="font-size: 18px; font-family: Roboto, 'Open Sans', Arial, Tahoma, Helvetica, sans-serif; color: rgb(85, 85, 85); font-weight: bold; text-align: left; word-break: break-word; line-height: 26px;"><span style="color: rgb(85, 85, 85); font-weight: bold; font-size: inherit; line-height: 26px;"><a href="https://ncba.coop/administrator/components/com_civicrm/civicrm/extern/url.php?u=11862&qid=" style="color: rgb(85, 85, 85); font-weight: bold; font-size: inherit; border-style: none; text-decoration: none !important; line-height: 26px;" border="0">In her own words: Project beneficiary Maïmouna Amadani tells the story of her journey to financial independence</a></span></td>
+                                            </tr>
+                                            <!--start space height -->
+                                            <tr>
+                                              <td height="5" style="height: 5px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                                            </tr>
+                                            <!--end space height -->
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr dup="0">
+                                      <td valign="top">
+                                        <table border="0" cellspacing="0" cellpadding="0" align="left" width="auto" style="">
+                                          <tbody>
+                                            <tr>
+                                              <td class="inner-text" style="font-size: 14px; font-family: Roboto, 'Open Sans', Arial, Tahoma, Helvetica, sans-serif; color: rgb(163, 162, 162); font-weight: 300; text-align: left; word-break: break-word; line-height: 21px;">Starting as a poultry vaccinator with business training through NCBA CLUSA&rsquo;s USAID-funded <a href="https://ncba.coop/administrator/components/com_civicrm/civicrm/extern/url.php?u=11863&amp;qid=">Resilience and Economic Growth in the Sahel – Enhance Resilience (REGIS-ER) Project</a>, Maïmouna Amadani has achieved a level of personal and professional empowerment that allows her to provide for her family and take advantage of new business opportunities. She recently told the story of her journey to financial independence that will continue long after the project ends. Click through to read Maïmouna's story in her own words.</td>
+                                            </tr>
+                                            <!--start space height -->
+                                            <tr>
+                                              <td height="10" style="height: 10px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                                            </tr>
+                                            <!--end space height -->
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td valign="top" width="auto" align="center"> 
+                                        <!-- start button -->
+                                        <table border="0" align="center" cellpadding="0" cellspacing="0" dup="0" width="auto" class="center-on-narrow" style=" float:left;">
+                                          <tbody>
+                                            <tr>
+                                              <td width="auto" align="center" valign="middle" height="32" style="background-color: rgb(63, 140, 205); border-radius: 24px; background-clip: padding-box; font-size: 13px; font-family: Roboto, 'Open Sans', Arial, Tahoma, Helvetica, sans-serif; text-align: center; color: rgb(255, 255, 255); font-weight: bold; padding-left: 18px; padding-right: 18px; word-break: break-word; line-height: 21px;" class="button-a"><span style="color: rgb(255, 255, 255); font-weight: bold; font-size: inherit; line-height: 21px;"><a href="https://ncba.coop/administrator/components/com_civicrm/civicrm/extern/url.php?u=11862&qid=" style="color: rgb(255, 255, 255); font-weight: bold; font-size: inherit; border-style: none; text-decoration: none !important; line-height: 21px;" border="0"> <!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->Keep&nbsp;reading<!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--> </a></span></td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <!-- end button -->
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <!-- end text content -->
+                            <!--start space height -->
+                            <tr>
+                              <td height="20" style="height: 20px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                            </tr>
+                            <!--end space height -->
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <!-- end image content -->
+                  </tbody>
+                </table>
+                <!-- end container width 560px --></td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- end  container width 600px --></td>
+    </tr>
+    <!-- END LAYOUT-5  -->
+    <!-- START LAYOUT-4 -->
+    <tr>
+      <td align="center" valign="top" style="background-color:#efefef;"> 
+        <!-- start LAYOUT-4 container width 600px -->
+        <table width="600" align="center" border="0" cellspacing="0" cellpadding="0" class="container" style="padding-left: 20px; padding-right: 20px; background-color: #ffffff; border-bottom: 1px solid rgb(199, 199, 199); width: 600px;">
+          <tbody>
+            <tr>
+              <td valign="top"> 
+                <!-- start LAYOUT-4 container width 560px -->
+                <table width="560" align="center" border="0" cellspacing="0" cellpadding="0" class="full-width" style="width: 560px;">
+                  <!--start space height -->
+                  <tbody>
+                    <tr>
+                      <td height="20" style="height: 20px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                    </tr>
+                    <!--end space height --><!-- start image content -->
+                    <tr>
+                      <td valign="top" width="100%">
+                        <table width="270" border="0" cellspacing="0" cellpadding="0" align="left" class="full-width" style="width: 270px;">
+                          <tbody>
+                            <tr>
+                              <td valign="top">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0" align="left" style="">
+                                  <tbody>
+                                    <tr>
+                                      <td valign="top" align="left" class="image-270px" width="270" style="width: 270px;"><a href="https://ncba.coop/administrator/components/com_civicrm/civicrm/extern/url.php?u=11864&qid=" style="font-size: inherit; border-style: none; text-decoration: none !important;" border="0"><img src="/_MA-Temp/_NCBA-CLUSA-Newsletter-RAW/2016-News-Alerts-r4/images/FPO-Stock_NCBA-Ratio.png" width="20" alt="icon-facebook" width="270" alt="image10_480x260" style="display:block; max-width:270px; " border="0" hspace="0" vspace="0"></a></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <!--start space height -->
+                            <tr>
+                              <td height="20" style="height: 20px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                            </tr>
+                            <!--end space height -->
+                          </tbody>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]></td><td valign="top" ><![endif]-->
+                        <table class="remove" width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="font-size: 0px; line-height: 0; border-collapse: collapse; width: 1px;">
+                          <tbody>
+                            <tr>
+                              <td width="0" height="2" style="border-collapse: collapse; width: 0px; height: 2px; line-height: 2px; font-size: 2px;">
+                                <p style="padding: 0 0 0 19px;">&nbsp;</p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]></td><td valign="top" ><![endif]-->
+                        <table width="270" border="0" cellspacing="0" cellpadding="0" align="right" class="full-width" style="width: 270px;">
+                          <!-- start text content -->
+                          <tbody>
+                            <tr>
+                              <td valign="top">
+                                <table border="0" cellspacing="0" cellpadding="0" align="left" width="auto" style="">
+                                  <tbody>
+                                    <tr dup="0">
+                                      <td valign="top">
+                                        <table border="0" cellspacing="0" cellpadding="0" align="left" width="auto" style="">
+                                          <tbody>
+                                            <tr>
+                                              <td class="inner-text" style="font-size: 18px; font-family: Roboto, 'Open Sans', Arial, Tahoma, Helvetica, sans-serif; color: rgb(85, 85, 85); font-weight: bold; text-align: left; word-break: break-word; line-height: 26px;"><span style="color: rgb(85, 85, 85); font-weight: bold; font-size: inherit; line-height: 26px;"><a href="https://ncba.coop/administrator/components/com_civicrm/civicrm/extern/url.php?u=11864&qid=" style="color: rgb(85, 85, 85); font-weight: bold; font-size: inherit; border-style: none; text-decoration: none !important; line-height: 26px;" border="0">Are Hillary Clinton and Donald Trump co-op ready? Everything Co-op releases podcast and audience report card on presidential candidates</a></span></td>
+                                            </tr>
+                                            <!--start space height -->
+                                            <tr>
+                                              <td height="5" style="height: 5px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                                            </tr>
+                                            <!--end space height -->
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr dup="0">
+                                      <td valign="top">
+                                        <table border="0" cellspacing="0" cellpadding="0" align="left" width="auto" style="">
+                                          <tbody>
+                                            <tr>
+                                              <td class="inner-text" style="font-size: 14px; font-family: Roboto, 'Open Sans', Arial, Tahoma, Helvetica, sans-serif; color: rgb(163, 162, 162); font-weight: 300; text-align: left; word-break: break-word; line-height: 21px;">NCBA CLUSA's <a href="https://ncba.coop/administrator/components/com_civicrm/civicrm/extern/url.php?u=11859&amp;qid=">2016 National Purchasing Co-op Conference</a> in Miami, Florida, next week will feature a unique mix of sessions, networking and activities designed to help attendees &ldquo;Elevate Connections&rdquo; within the diverse shared services sector. Attendees will learn how to facilitate growth at their co-op and engage their members by utilizing technology and taking advantage of their unique identity as cooperatives. To help attendees implement these new ideas, NCBA CLUSA will also host seven sponsoring organizations dedicated to supporting cooperatives with their suite of services.</td>
+                                            </tr>
+                                            <!--start space height -->
+                                            <tr>
+                                              <td height="10" style="height: 10px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                                            </tr>
+                                            <!--end space height -->
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td valign="top" width="auto" align="center"> 
+                                        <!-- start button -->
+                                        <table border="0" align="center" cellpadding="0" cellspacing="0" dup="0" width="auto" class="center-on-narrow" style=" float:left;">
+                                          <tbody>
+                                            <tr>
+                                              <td width="auto" align="center" valign="middle" height="32" style="background-color: rgb(63, 140, 205); border-radius: 24px; background-clip: padding-box; font-size: 13px; font-family: Roboto, 'Open Sans', Arial, Tahoma, Helvetica, sans-serif; text-align: center; color: rgb(255, 255, 255); font-weight: bold; padding-left: 18px; padding-right: 18px; word-break: break-word; line-height: 21px;" class="button-a"><span style="color: rgb(255, 255, 255); font-weight: bold; font-size: inherit; line-height: 21px;"><a href="https://ncba.coop/administrator/components/com_civicrm/civicrm/extern/url.php?u=11864&qid=" style="color: rgb(255, 255, 255); font-weight: bold; font-size: inherit; border-style: none; text-decoration: none !important; line-height: 21px;" border="0"> <!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->Keep&nbsp;reading<!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--> </a></span></td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <!-- end button -->
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <!-- end text content -->
+                            <!--start space height -->
+                            <tr>
+                              <td height="20" style="height: 20px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                            </tr>
+                            <!--end space height -->
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <!-- end image content -->
+                  </tbody>
+                </table>
+                <!-- end LAYOUT-4 container width 560px --></td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- end LAYOUT-4 container width 600px --></td>
+    </tr>
+    <!-- END LAYOUT-4  -->
+    <!-- START LAYOUT-5 -->
+    <tr>
+      <td align="center" valign="top" style="background-color:#efefef;"> 
+        <!-- start container width 600px -->
+        <table width="600" align="center" border="0" cellspacing="0" cellpadding="0" class="container" style="padding-left: 20px; padding-right: 20px; background-color: #ffffff; border-bottom: 1px solid rgb(199, 199, 199); width: 600px;">
+          <tbody>
+            <tr>
+              <td valign="top"> 
+                <!-- start container width 560px -->
+                <table width="560" align="center" border="0" cellspacing="0" cellpadding="0" class="full-width" style="width: 560px;" dir="rtl">
+                  <!--start space height -->
+                  <tbody>
+                    <tr>
+                      <td height="20" style="height: 20px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                    </tr>
+                    <!--end space height -->
+<!-- start image content -->
+                    <tr>
+                      <td valign="top" width="100%">
+                        <table width="270" border="0" cellspacing="0" cellpadding="0" align="right" class="full-width" style="width: 270px;" dir="ltr">
+                          <tbody>
+                            <tr>
+                              <td valign="top">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0" align="left" style="">
+                                  <tbody>
+                                    <tr>
+                                      <td valign="top" align="left" class="image-270px" width="270" style="width: 270px;"><a href="https://ncba.coop/administrator/components/com_civicrm/civicrm/extern/url.php?u=11868&qid=" style="font-size: inherit; border-style: none; text-decoration: none !important;" border="0"><img src="/_MA-Temp/_NCBA-CLUSA-Newsletter-RAW/2016-News-Alerts-r4/images/FPO-Stock_NCBA-Ratio.png" width="20" alt="icon-facebook" width="270" alt="image11_480x260" style="display:block; max-width:270px; " border="0" hspace="0" vspace="0"></a></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <!--start space height -->
+                            <tr>
+                              <td height="20" style="height: 20px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                            </tr>
+                            <!--end space height -->
+                          </tbody>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]></td><td valign="top" ><![endif]-->
+                        <table class="remove" width="1" border="0" cellpadding="0" cellspacing="0" align="right" style="font-size: 0px; line-height: 0; border-collapse: collapse; width: 1px;" dir="ltr">
+                          <tbody>
+                            <tr>
+                              <td width="0" height="2" style="border-collapse: collapse; width: 0px; height: 2px; line-height: 2px; font-size: 2px;">
+                                <p style="padding: 0 0 0 19px;">&nbsp;</p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]></td><td valign="top" ><![endif]-->
+                        <table width="270" border="0" cellspacing="0" cellpadding="0" align="left" class="full-width" style="width: 270px;" dir="ltr">
+                          <!-- start text content -->
+                          <tbody>
+                            <tr>
+                              <td valign="top">
+                                <table border="0" cellspacing="0" cellpadding="0" align="left" width="auto" style="">
+                                  <tbody>
+                                    <tr dup="0">
+                                      <td valign="top">
+                                        <table border="0" cellspacing="0" cellpadding="0" align="left" width="auto" style="">
+                                          <tbody>
+                                            <tr>
+                                              <td class="inner-text" style="font-size: 18px; font-family: Roboto, 'Open Sans', Arial, Tahoma, Helvetica, sans-serif; color: rgb(85, 85, 85); font-weight: bold; text-align: left; word-break: break-word; line-height: 26px;"><span style="color: rgb(85, 85, 85); font-weight: bold; font-size: inherit; line-height: 26px;"><a href="https://ncba.coop/administrator/components/com_civicrm/civicrm/extern/url.php?u=11868&qid=" style="color: rgb(85, 85, 85); font-weight: bold; font-size: inherit; border-style: none; text-decoration: none !important; line-height: 26px;" border="0">In the New York City area? Join Cooperative Economics Alliance of NYC for Co-op Road Show September 20!</a></span></td>
+                                            </tr>
+                                            <!--start space height -->
+                                            <tr>
+                                              <td height="5" style="height: 5px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                                            </tr>
+                                            <!--end space height -->
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr dup="0">
+                                      <td valign="top">
+                                        <table border="0" cellspacing="0" cellpadding="0" align="left" width="auto" style="">
+                                          <tbody>
+                                            <tr>
+                                              <td class="inner-text" style="font-size: 14px; font-family: Roboto, 'Open Sans', Arial, Tahoma, Helvetica, sans-serif; color: rgb(163, 162, 162); font-weight: 300; text-align: left; word-break: break-word; line-height: 21px;">Starting as a poultry vaccinator with business training through NCBA CLUSA&rsquo;s USAID-funded <a href="https://ncba.coop/administrator/components/com_civicrm/civicrm/extern/url.php?u=11863&amp;qid=">Resilience and Economic Growth in the Sahel – Enhance Resilience (REGIS-ER) Project</a>, Maïmouna Amadani has achieved a level of personal and professional empowerment that allows her to provide for her family and take advantage of new business opportunities. She recently told the story of her journey to financial independence that will continue long after the project ends. Click through to read Maïmouna's story in her own words.</td>
+                                            </tr>
+                                            <!--start space height -->
+                                            <tr>
+                                              <td height="10" style="height: 10px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                                            </tr>
+                                            <!--end space height -->
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td valign="top" width="auto" align="center"> 
+                                        
+                                        <!-- start button -->
+                                        <table border="0" align="center" cellpadding="0" cellspacing="0" class="center-on-narrow" width="auto" style="float:left;">
+                                          <tbody>
+                                            <tr>
+                                              <td width="auto" align="center" valign="middle" height="32" style="background-color: rgb(63, 140, 205); border-radius: 24px; background-clip: padding-box; font-size: 13px; font-family: Roboto, 'Open Sans', Arial, Tahoma, Helvetica, sans-serif; text-align: center; color: rgb(255, 255, 255); font-weight: bold; padding-left: 18px; padding-right: 18px; word-break: break-word; line-height: 21px;" class="button-a"><span style="color: rgb(255, 255, 255); font-weight: bold; font-size: inherit; line-height: 21px;"><a href="https://ncba.coop/administrator/components/com_civicrm/civicrm/extern/url.php?u=11868&qid=" style="color: rgb(255, 255, 255); font-weight: bold; font-size: inherit; border-style: none; text-decoration: none !important; line-height: 21px;" border="0"> <!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->Keep&nbsp;reading<!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--> </a></span></td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <!-- end button -->
+
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <!-- end text content -->
+                            <!--start space height -->
+                            <tr>
+                              <td height="20" style="height: 20px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                            </tr>
+                            <!--end space height -->
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <!-- end image content -->
+                  </tbody>
+                </table>
+                <!-- end container width 560px --></td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- end  container width 600px --></td>
+    </tr>
+    <!-- END LAYOUT-5  -->
+    <!-- START HEIGHT SPACE 20PX-->
+    <tr>
+      <td align="center" valign="top" style="background-color:#efefef;">
+        <table width="600" class="full-width" align="center" border="0" cellspacing="0" cellpadding="0" style="background-color: #efefef; width: 600px;">
+          <tbody>
+            <tr>
+              <td valign="top" align="center" class="image-100-percent" width="600" style="width: 600px;"><img src="images/space.png" width="600" alt="space" style="display:block; max-height:20px; max-width:600px; " border="0" hspace="0" vspace="0"></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <!-- END HEIGHT SPACE 20PX-->
+   
+    <!-- START LAYOUT-12/1 -->
+    <tr>
+      <td align="center" valign="top" style="background-color:#efefef;"> 
+
+
+        <!-- start  container width 600px -->
+        <table width="600" align="center" border="0" cellspacing="0" cellpadding="0" class="full-width" style="padding-left: 0px; padding-right: 0px; background-color: #ffffff; border-bottom: none; width: 600px; ">
+          <tbody>
+
+          <!-- Background Image with Text : BEGIN -->
+          <tr>
+            <td background="/_MA-Temp/_NCBA-CLUSA-Newsletter-RAW/2016-News-Alerts-r4/images/World-Back-sample-3.jpg" bgcolor="#222222" valign="middle" style="text-align: center; background-position: center center !important; background-size: cover !important;">
+              <!--[if gte mso 9]>
+                <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:175px; background-position: center center !important;">
+                <v:fill type="tile" src="/_MA-Temp/_NCBA-CLUSA-Newsletter-RAW/2016-News-Alerts-r4/images/World-Back-sample-3.jpg" color="#222222" />
+                <v:textbox inset="0,0,0,0">
+              <![endif]-->
+              <div>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td valign="middle" style="text-align: center; padding: 20px; font-family: Roboto, 'Open Sans', Arial, Tahoma, Helvetica, sans-serif; font-size: 14px; font-weight: 300;mso-height-rule: exactly; line-height: 20px; color: #ffffff; font-weight: 100;">
+                      <h2><strong>Upcoming Events</strong></h2>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if gte mso 9]>
+                </v:textbox>
+                </v:rect>
+              <![endif]-->
+            </td>
+          </tr>
+          <!-- Background Image with Text : END --> 
+          </tbody>
+        </table>
+        <!-- end  container width 600px -->
+      </td>
+    </tr>
+    <!-- END LAYOUT-12/1 -->
+    <!-- START LAYOUT-7 -->
+    <tr>
+      <td align="center" valign="top" style="background-color:#efefef;"> 
+        <!-- start  container width 600px -->
+        <table width="600" align="center" border="0" cellspacing="0" cellpadding="0" class="container" style="padding-left: 20px; padding-right: 20px; background-color: #FFFFFF; border-bottom: none; width: 600px;">
+          <tbody>
+          <!-- Thumbnail Left, Text Right : BEGIN -->
+          <tr>
+            <td dir="ltr" align="center" valign="top" width="100%" style="padding: 20px 10px 10px 10px;">
+              <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td width="25%" class="stack-column-center">
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tr>
+                        <td dir="ltr" valign="top" style="padding: 0 10px;"><a href="http://www.google.com" style="font-size: inherit; border-style: none; text-decoration: none !important;" border="0"><img src="/_MA-Temp/_NCBA-CLUSA-Newsletter-RAW/2016-News-Alerts-r4/images/FPO-Stock_NCBA-Ratio.png" width="170" alt="icon-facebook" width="170" alt="alt_text" border="0" class="center-on-narrow"></a></td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td width="75%" class="stack-column-center">
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tr>
+                        <td dir="ltr" valign="top" style="font-family: Roboto, 'Open Sans', Arial, Tahoma, Helvetica, sans-serif; font-size: 14px; font-weight: 300;mso-height-rule: exactly; line-height: 20px; color: #555555; padding: 10px; text-align: left;" class="center-on-narrow"><span style=" color: rgb(85, 85, 85); font-weight: bold; font-size: 16px;"><a href="http://www.google.com" style="color: rgb(85, 85, 85); font-weight: bold; font-size: inherit; border-style: none; text-decoration: none !important;">NPCC 2016</a></span><br>
+                          22-27 NOV 2015 - Atlanta, GA <br>
+                          <br>
+                          U.S. purchasing cooperatives to come together and discuss issues critical to their shared...<br>
+                         </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td dir="ltr" align="center" valign="top" width="100%" style="padding: 10px;">
+              <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td width="25%" class="stack-column-center">
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tr>
+                        <td dir="ltr" valign="top" style="padding: 0 10px;"><a href="http://www.google.com" style="font-size: inherit; border-style: none; text-decoration: none !important;" border="0"><img src="/_MA-Temp/_NCBA-CLUSA-Newsletter-RAW/2016-News-Alerts-r4/images/FPO-Stock_NCBA-Ratio.png"  width="170" alt="alt_text" border="0" class="center-on-narrow"></a></td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td width="75%" class="stack-column-center">
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tr>
+                        <td dir="ltr" valign="top" style="font-family: Roboto, 'Open Sans', Arial, Tahoma, Helvetica, sans-serif; font-size: 14px; font-weight: 300;mso-height-rule: exactly; line-height: 20px; color: #555555; padding: 10px; text-align: left;" class="center-on-narrow"><span style="color: rgb(85, 85, 85); font-weight: bold; font-size: 16px;"><a href="http://www.google.com" style="color: rgb(85, 85, 85); font-weight: bold; font-size: inherit; border-style: none; text-decoration: none !important;">Cooperative Professionals Conference</a></span><br />
+                        19-21 SEP 2016 - Miami, FL <br />
+                        <br />
+                        Conference for legal and accounting professionals who serve...<br />                          
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td dir="ltr" align="center" valign="top" width="100%" style="padding: 10px;">
+              <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td width="25%" class="stack-column-center">
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tr>
+                        <td dir="ltr" valign="top" style="padding: 0 10px;"><a href="http://www.google.com" style="font-size: inherit; border-style: none; text-decoration: none !important;" border="0"><img src="/_MA-Temp/_NCBA-CLUSA-Newsletter-RAW/2016-News-Alerts-r4/images/FPO-Stock_NCBA-Ratio.png"  width="170" alt="alt_text" border="0" class="center-on-narrow"></a></td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td width="75%" class="stack-column-center">
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tr>
+                        <td dir="ltr" valign="top" style="font-family: Roboto, 'Open Sans', Arial, Tahoma, Helvetica, sans-serif; font-size: 14px; font-weight: 300;mso-height-rule: exactly; line-height: 20px; color: #555555; padding: 10px; text-align: left;" class="center-on-narrow"><span style=" color: rgb(85, 85, 85); font-weight: bold; font-size: 16px;"><a href="http://www.google.com" style="color: rgb(85, 85, 85); font-weight: bold; font-size: inherit; border-style: none; text-decoration: none !important;">Webinar: After the Sale: Protecting the Owner</a></span><br>
+                          18 OCT 2016 - Webcast <br>
+                          <br>
+                          Castle Wealth Advisors for a webinar called “After the Sale: Protecting the Owner’s Net Worth.” <br>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td dir="ltr" align="center" valign="top" width="100%" style="padding: 10px;">
+              <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td width="25%" class="stack-column-center">
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tr>
+                        <td dir="ltr" valign="top" style="padding: 0 10px;"><a href="http://www.google.com" style="font-size: inherit; border-style: none; text-decoration: none !important;" border="0"><img src="/_MA-Temp/_NCBA-CLUSA-Newsletter-RAW/2016-News-Alerts-r4/images/FPO-Stock_NCBA-Ratio.png"  width="170" alt="alt_text" border="0" class="center-on-narrow"></a></td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td width="75%" class="stack-column-center">
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tr>
+                        <td dir="ltr" valign="top" style="font-family: Roboto, 'Open Sans', Arial, Tahoma, Helvetica, sans-serif; font-size: 14px; font-weight: 300;mso-height-rule: exactly; line-height: 20px; color: #555555; padding: 10px; text-align: left;" class="center-on-narrow"><span style=" color: rgb(85, 85, 85); font-weight: bold; font-size: 16px;"><a href="http://www.google.com" style="color: rgb(85, 85, 85); font-weight: bold; font-size: inherit; border-style: none; text-decoration: none !important;">2016 Forum on Cooperatives in Development</a></span><br>
+                          27 OCT 2016 - Washington, DC<br>
+                          <br>
+                          Redefining the role of cooperatives in developments for economic and social progress.<br>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+            
+          <!--start space height -->
+          <tr>
+            <td height="15" style="height: 15px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+          </tr>
+          <!--end space height -->
+
+         </tbody>
+        </table>
+        <!-- end  container width 600px -->
+      </td>
+    </tr>
+    <!-- END LAYOUT-7 -->
+    
+    <!-- START HEIGHT SPACE 20PX-->
+    <tr>
+      <td align="center" valign="top" style="background-color:#efefef;">
+        <table width="600" class="full-width" align="center" border="0" cellspacing="0" cellpadding="0" style="background-color: #efefef; width: 600px;">
+          <tbody>
+            <tr>
+              <td valign="top" align="center" class="image-100-percent" width="600" style="width: 600px;"><img src="images/space.png" width="600" alt="space" style="display:block; max-height:20px; max-width:600px; " border="0" hspace="0" vspace="0"></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <!-- END HEIGHT SPACE 20PX-->
+    <!-- START LAYOUT-12/1 -->
+    <tr>
+      <td align="center" valign="top" style="background-color:#efefef;"> 
+        <!-- start  container width 600px -->
+        <table width="600" align="center" border="0" cellspacing="0" cellpadding="0" class="container" style="padding-left: 20px; padding-right: 20px; background-color: #ffffff; border-bottom: 1px solid rgb(199, 199, 199); width: 600px;">
+          <tbody>
+            <tr>
+              <td valign="top"> 
+                <!-- start container width 560px -->
+                <table width="560" align="center" border="0" cellspacing="0" cellpadding="0" class="full-width" style="width: 560px;">
+                  <!--start space height -->
+                  <tbody>
+                    <tr>
+                      <td height="20" style="height: 20px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                    </tr>
+                    <!--end space height -->
+                    <!-- start heading -->
+                    <tr dup="0">
+                      <td valign="top">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="">
+                          <tbody>
+                            <tr>
+                              <td style="font-size: 18px; font-family: Roboto, 'Open Sans', Arial, Tahoma, Helvetica, sans-serif; color: rgb(85, 85, 85); font-weight: normal; text-align: center; word-break: break-word; line-height: 26px;">
+                                <table width="200" border="0" align="center" cellpadding="0" cellspacing="0" style="max-width: 150px;">
+                                  <tbody>
+                                    <tr>
+                                      <td align="center" style="padding: 0 10px 0 0;" valign="middle" width="40"><a href="https://www.facebook.com/NCBACLUSA"><img alt="Like us on Facebook" src="/_MA-Temp/_NCBA-CLUSA-Newsletter-RAW/2016-News-Alerts-r4/images/social-media_Facebook-Btn.png" style="display: compact;"/></a></td>
+                                      <td align="center" style="padding: 0 10px 0 0;" valign="middle" width="40"><a href="https://twitter.com/NCBACLUSA"><img alt="Follow us on Twitter" src="/_MA-Temp/_NCBA-CLUSA-Newsletter-RAW/2016-News-Alerts-r4/images/social-media_Twitter-Btn.png" style="display: compact;"/></a></td>
+                                      <td align="center" style="padding: 0 10px 0 0;" valign="middle" width="40"><a href="https://www.youtube.com/user/NCBACLUSA"><img alt="Follow us on YouTube" src="/_MA-Temp/_NCBA-CLUSA-Newsletter-RAW/2016-News-Alerts-r4/images/social-media_YouTube-Btn.png" style="display: compact;"/></a></td>
+                                      <td align="center" valign="middle" width="40"><a href="https://www.instagram.com/ncbaclusa/"><img alt="Follow us on Instagram" src="/_MA-Temp/_NCBA-CLUSA-Newsletter-RAW/2016-News-Alerts-r4/images/social-media_Instagram-Btn.png" style="display: compact;"/></a></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <!--start space height -->
+                            <tr>
+                              <td height="15" style="height: 15px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                            </tr>
+                            <!--end space height -->
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <!-- end heading -->
+                    <!-- start text content -->
+                    <tr dup="0">
+                      <td valign="top">
+                        <table border="0" cellspacing="0" cellpadding="0" align="left" width="100%" style="">
+                          <tbody>
+                            <tr>
+                              <td class="inner-text" style="font-size: 14px; font-family: Roboto, 'Open Sans', Arial, Tahoma, Helvetica, sans-serif; color: rgb(163, 162, 162); font-weight: 300; text-align: justify; word-break: break-word; line-height: 12px;"><span face="Helvetica, Arial, sans-serif" size="1" style="color: #000000; font-size: xx-small; font-family: Helvetica, Arial, sans-serif; text-align: justify;">The National Cooperative Business Association CLUSA International (NCBA CLUSA) is the trade association for cooperative businesses in the United States and an international development organization. NCBA CLUSA provides cross-sector advocacy, education and technical assistance to build sustainable communities, create economic opportunities and strengthen cooperatives. For more than 100 years, NCBA CLUSA has sought to advance, promote and protect cooperatives that build a better world. Over the past 60 years, NCBA CLUSA has grown its international development portfolio to $255 million, with active programs in Africa, Latin America and Asia.</span></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <!-- end text content -->
+                    <!--start space height -->
+                    <tr>
+                      <td height="20" style="height: 20px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+                    </tr>
+                    <!--end space height -->
+                  </tbody>
+                </table>
+                <!-- end  container width 560px --></td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- end  container width 600px --></td>
+    </tr>
+    <!-- END LAYOUT-12/1 -->
+    <!-- START FOOTER-->
+    <tr>
+      <td align="center" valign="top" style="background-color:#efefef;">
+        <table width="600" class="full-width" align="center" border="0" cellspacing="0" cellpadding="0" style="background-color: #efefef; width: 600px;">
+          <tbody>
+            <tr>
+              <td valign="top" align="center" class="image-100-percent" width="600" style="width: 600px;" mc:edit="image-0">
+                <table width="600" class="full-width" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; border-collapse:collapse;">
+                  <tr>
+                    <td class="left-cap" width="50%" align="left" valign="bottom" style="text-wrap:none; line-height: 7pt; padding: 4px 0 0 0"><font face="Helvetica, Arial, sans-serif" size="2" style="font-size: 7pt; color: #333333;">&copy; 2016 NCBA CLUSA</font></td>
+                    <td class="right-cap" width="50%" align="right" valign="bottom" style="text-wrap:none; line-height: 7pt; padding: 4px 0 0 0"><font face="Helvetica, Arial, sans-serif" size="2" style="font-size: 7pt; color: #333333;">Unsubscribe | Update Preferences </font></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <!-- START HEIGHT SPACE 10PX-->
+    <tr>
+      <td height="10" style="height: 10px; font-size: 0px; line-height: 0; border-collapse: collapse;">&nbsp;</td>
+    </tr>
+    <!-- END HEIGHT SPACE -->
+  </table>
+</body>
+</html>
